@@ -35,3 +35,10 @@ function openReddit() {
 function openTwitter() {
   window.location.href = "https://twitter.com/chucknorris?lang=en";
 }
+
+$(document).click(function()
+{
+
+    $("#norrisFacts").attr("style", "background-image: url('https://s3.amazonaws.com/mf-cnorris/assets/uploads/2016/10/19123509/timeline-05.jpg')");
+
+});
