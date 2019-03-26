@@ -42,3 +42,10 @@ $(document).click(function()
     $("#norrisFacts").attr("style", "background-image: url('https://s3.amazonaws.com/mf-cnorris/assets/uploads/2016/10/19123509/timeline-05.jpg')");
 
 });
+
+$(document).keypress(function(event){
+    var keycode = (event.keyCode ? event.keyCode : event.which);
+    if(keycode == '13'){
+      $(element).trigger('click');;   
+    }
+  });
